@@ -33,6 +33,7 @@
       }
       if (code) inc(code, lvl, 750);
       target.setAttribute('aria-valuenow', String(lvl));
+      target.classList.add('is-visible');
       obs.unobserve(target);
     }
   }, { threshold:.35 });
