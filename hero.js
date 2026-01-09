@@ -38,8 +38,9 @@
     const btn = document.createElement('button');
     btn.setAttribute('data-backtop',''); btn.setAttribute('title','Back to top (H)'); btn.textContent='↑';
     Object.assign(btn.style,{position:'fixed',right:'16px',bottom:'16px',zIndex:'999',
-      width:'44px',height:'44px',borderRadius:'999px',background:'var(--bg3)',color:'var(--text)',
-      border:'1px solid var(--edge)',cursor:'pointer',opacity:'0',transform:'translateY(10px)',
+      width:'44px',height:'44px',borderRadius:'999px',background:'var(--panel)',color:'var(--text)',
+      border:'1px solid var(--border)',cursor:'pointer',opacity:'0',transform:'translateY(10px)',
+      boxShadow:'var(--shadow)',
       transition:'opacity .2s ease, transform .2s ease'});
     btn.addEventListener('click', ()=> window.DD.router.smoothTo('#home'));
     document.body.appendChild(btn);
