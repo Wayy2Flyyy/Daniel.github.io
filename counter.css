@@ -41,6 +41,11 @@ nav#main-nav .nav-wrap{
   user-select:none;
 }
 
+.visitor-pill .vc-label{font-weight:800;letter-spacing:.35px;text-transform:uppercase;font-size:12px;color:rgba(255,255,255,.88)}
+.visitor-pill .dot{color:rgba(255,255,255,.5);font-size:14px;line-height:1}
+
+#vc-n{font-variant-numeric:tabular-nums;min-width:38px;display:inline-block;text-align:right}
+
 /* Don’t let the counter pick up nav link hover styles */
 nav#main-nav .nav-links .visitor-pill{ all:unset; } /* safety if misplaced */
 
